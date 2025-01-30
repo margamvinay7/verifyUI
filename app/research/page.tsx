@@ -67,7 +67,7 @@ export default function Research() {
         "https://verifyserver-dk5m.onrender.com/research/createResearch",
         requestData
       );
-      // console.log("Research data sent successfully:", response.data);
+      console.log("Research data sent successfully:", response.data);
     } catch (error) {
       console.error("Error sending research data:", error);
     }
