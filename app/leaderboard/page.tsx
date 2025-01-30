@@ -50,7 +50,7 @@ export default function Leaderboard() {
         setUserData(response.data.data);
         // console.log(response);
       } catch (err: unknown) {
-        // console.error(err);
+        console.error(err);
       }
     };
 

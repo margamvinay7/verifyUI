@@ -62,7 +62,8 @@ export default function Influencer() {
         // console.log(response);
       } catch (err: unknown) {
         setError("An error occurred while fetching data.");
-        // console.error(err);
+
+        console.error(err);
       } finally {
         setLoading(false);
       }

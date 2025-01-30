@@ -69,7 +69,7 @@ export default function Research() {
       );
       // console.log("Research data sent successfully:", response.data);
     } catch (error) {
-      // console.error("Error sending research data:", error);
+      console.error("Error sending research data:", error);
     }
   };
 
